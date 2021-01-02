@@ -21,13 +21,13 @@ ani(e.key);
 
 function best(key){
   switch (key) {
-    case 'w':  var audio = new Audio('sounds/crash.mp3');
+    case 'w':  var audio = new Audio('crash.mp3');
       audio.play();
       break;
-      case 'a':  var audio = new Audio('sounds/kick-bass.mp3');
+      case 'a':  var audio = new Audio('kick-bass.mp3');
         audio.play();
         break;
-        case 's':  var audio = new Audio('sounds/snare.mp3');
+        case 's':  var audio = new Audio('snare.mp3');
           audio.play();
           break;
           case 'd':  var audio = new Audio('sounds/tom-1.mp3');
